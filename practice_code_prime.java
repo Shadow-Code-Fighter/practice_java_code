@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class practice_code_1 {
+public class practice_code_prime {
     public static void main(String[] args) {
         int j=0;
         Scanner sc = new Scanner(System.in);

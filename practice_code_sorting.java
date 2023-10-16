@@ -1,4 +1,4 @@
-public class practice_code_2 {
+public class practice_code_sorting {
     public static void main(String[] args) {
         int array[] = { 2, 5, 3, 4, 2, 6 };
         int temp;
