@@ -17,7 +17,7 @@ public class practice_code_sorting {
                 }
             }
         }
-        System.out.println("Before Sorting");
+        System.out.println("After Sorting");
         for (int k : array) {
             System.out.println(k);
         }
