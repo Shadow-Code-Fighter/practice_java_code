@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,12 +18,32 @@ public class A {
 //     System.out.println(lastToken);
 //   }
 
-    Pattern p = Pattern.compile("\\s");
-    String input = "Pankaj Sir Academy";
-    String[] tokens = p.split(input); // Split the input string by whitespace
+    // Scanner sc = new Scanner(System.in);
+    // System.out.println("Enter full your name: ");
+    // Pattern p = Pattern.compile("\\s");
+    // String input = sc.nextLine();
+    // String[] tokens = p.split(input); // Split the input string by whitespace
 
-    for (String token : tokens) {
-        System.out.println(token);
-    }
+    // for (String token : tokens) {
+    //     System.out.println(token);
+    // }
+
+      // Scanner sc =new Scanner(System.in);
+      // System.out.println("enter your name: ");
+      // String str = sc.nextLine();
+      // int count=0;
+
+      // Pattern p =Pattern.compile("[^a-zA-z@!%]");
+      // Matcher m = p.matcher(str);
+      // while(m.find()){
+      //   count++;
+      // }
+      // if(count !=0 || str.length()<5){
+      //   System.out.println("error");
+      // }else{
+      //   System.out.println("input accepted");
+      // }
+
   }
+
 }

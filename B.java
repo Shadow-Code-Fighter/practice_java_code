@@ -7,13 +7,14 @@ public class B {
         System.out.println("enter your name: ");
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
+        String str1=str.toString();
         int count = 0;
-        Pattern p = Pattern.compile("[^a-zA-Z]");
-        Matcher m = p.matcher(str);
+        Pattern p = Pattern.compile("[a-zA-Z^6-9]");
+        Matcher m = p.matcher(str1);
         while (m.find()) {
             count++;
         }
-        if (count != 0 || str.length() < 5) {
+        if (count != 0 ) {
             System.out.println("Error input");
         } else {
             System.out.println("Input accepted");
