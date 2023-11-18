@@ -44,6 +44,18 @@ public class A {
       //   System.out.println("input accepted");
       // }
 
-  }
+      // Scanner sc = new Scanner(System.in);
+      // System.out.println("Enter phone number");
+      // String phone =sc.next();
+      // String regex = "[6-9][0-9]{9}";
+
+      // if(phone.matches(regex)){
+      //   System.out.println("Valid");
+      // }else{
+      // System.out.println("not Valid");
+      // }
+     
+
+    }
 
 }
